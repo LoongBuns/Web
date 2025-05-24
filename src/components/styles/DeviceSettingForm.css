@@ -1,0 +1,55 @@
+.setting-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.position-range-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.range-separator {
+  font-weight: bold;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.button-row {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.btn-cyan {
+  background-color: rgba(75, 192, 192, 1);
+  color: white;
+  border: none;
+  padding: 0.4rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn-cyan:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid rgba(75, 192, 192, 1);
+}
+
+.form-message {
+  margin-top: 0.5rem;
+}
+
+.form-message.success {
+  color: green;
+}
+
+.form-message.error {
+  color: red;
+}

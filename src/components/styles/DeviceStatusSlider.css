@@ -1,0 +1,45 @@
+.device-slider-container {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 1.2rem;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06);
+}
+
+.device-slider-label {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 0.25rem;
+}
+
+.device-slider-value {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0.75rem;
+}
+
+.device-slider-range {
+  width: 100%;
+  margin-bottom: 0.75rem;
+}
+
+.device-slider-button-container {
+  text-align: right;
+}
+
+.device-slider-save-btn {
+  padding: 0.4rem 0.8rem;
+  background-color: rgba(75, 192, 192, 1);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.device-slider-success {
+  font-size: 12px;
+  color: rgba(75, 192, 192, 1);
+  margin-top: 0.25rem;
+}

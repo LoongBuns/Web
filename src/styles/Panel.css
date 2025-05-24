@@ -1,0 +1,40 @@
+.panel-container {
+  padding: 24px;
+}
+
+.panel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 16px;
+}
+
+.panel-tabs {
+  display: flex;
+  gap: 16px;
+}
+
+.panel-tab-button {
+  font-weight: normal;
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 4px 8px;
+}
+
+.panel-tab-button.active {
+  font-weight: bold;
+  border-bottom: 2px solid black;
+}
+
+.panel-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.panel-list-area {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #f9f9f9;
+}

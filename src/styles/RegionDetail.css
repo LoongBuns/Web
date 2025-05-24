@@ -1,0 +1,21 @@
+.region-detail-container {
+  padding: 2rem;
+  font-family: sans-serif;
+}
+
+.region-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.region-metrics-row {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.region-content-row {
+  display: flex;
+  gap: 2rem;
+}

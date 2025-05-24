@@ -1,0 +1,14 @@
+.group-detail-container {
+  padding: 2rem;
+  font-family: sans-serif;
+}
+
+.group-loading,
+.group-error,
+.group-notfound {
+  padding: 1rem;
+}
+
+.group-error {
+  color: red;
+}

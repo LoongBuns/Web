@@ -1,0 +1,50 @@
+.device-loading,
+.device-error,
+.device-notfound {
+  padding: 1rem;
+}
+
+.device-error {
+  color: red;
+}
+
+.device-detail-container {
+  padding: 1rem;
+  font-family: sans-serif;
+}
+
+.device-top-section {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  align-items: stretch;
+}
+
+.device-slider {
+  flex: 1;
+  min-height: 200px;
+}
+
+.device-info {
+  flex: 2;
+  min-height: 200px;
+}
+
+.device-settings-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.device-settings-section {
+  display: flex;
+  gap: 2rem;
+}
+
+.device-settings-chart {
+  flex: 2;
+}
+
+.device-settings-form {
+  flex: 1;
+}
